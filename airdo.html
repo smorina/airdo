@@ -1,0 +1,49 @@
+<!--
+    AirDo:
+
+    AirDo is a simple Todo "app" that uses the URL to persistently store its state.
+    It was made for people like me who have multiple browser windows open, each related to 
+    an area of responsibility, and want to keep track of tasks related to each window
+    without having to switch away from the browser. 
+    
+    This was also built around the time ChatGPT became availble, and I used this as an
+    experiment to see how helpful it could be at generating code. The answer: it's complicated. 
+
+    Most CSS styling borrowed from the following example project: 
+    https://www.codingnepalweb.com/create-todo-list-app-html-javascript/
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>TODO: Unnamed List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="pageLoaded()">
+
+    <div class="wrapper">
+
+        <div class="form-name-input">
+            <input type="text" id="list-name-input" placeholder="Todo List Name">
+        </div>
+
+        <form id="todo-form">
+            <div class="task-input">
+                <img src="bars-icon.svg" alt="icon">
+                <input type="text" id="todo-input" placeholder="Enter new task here">
+            </div>
+            <ul id="todo-list" class="task-box"></ul>
+        </form>
+        <div class="controls">
+            <button class="clear-btn">Clear All</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
