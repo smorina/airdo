@@ -2,8 +2,8 @@
 
 AirDo is a simple Todo "app" that uses the URL to persistently store its state.
 It was made for people like me who have multiple browser windows open, each related to 
-an area of responsibility, and want to keep track of tasks related to each window
-without having to switch away from the browser. 
+an area of responsibility, and want to keep track of short term tactical tasks 
+related to each window without having to switch away from the browser. 
 
 <img src="screenshot.png" alt="screenshot" width="300"/>
 
